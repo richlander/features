@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using NETCatalogApp;
 
 namespace NETCatalog
 {
@@ -6,7 +7,7 @@ namespace NETCatalog
     {
         public NETCatalogApp()
         {
-			MainPage = new NavigationPage(new TopicsPage())
+			MainPage = new NavigationPage(new TestPage())
 			{
 				BarBackgroundColor = Color.FromHex("#212238"),
 				BarTextColor = Color.FromHex("#FFFFFF")

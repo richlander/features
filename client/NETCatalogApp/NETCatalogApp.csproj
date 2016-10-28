@@ -47,6 +47,9 @@
       <DependentUpon>TopicsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Loader.cs" />
+    <Compile Include="TestPage.xaml.cs">
+      <DependentUpon>TestPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="TopicsPage.xaml">
@@ -121,6 +124,9 @@
     <EmbeddedResource Include="features\vs\_toc.csv" />
     <EmbeddedResource Include="features\_toc.csv" />
     <EmbeddedResource Include="features\xamarin\_toc.csv" />
+    <EmbeddedResource Include="TestPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CategoriesPage.xaml">
